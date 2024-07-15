@@ -1,0 +1,14 @@
+jobs:
+  fossa-scan:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: fossas/fossa-action@main
+      with:
+        api-key: ${{secrets.fossaApiKey}}
+name: Link Checker
+'on':
+  push:
+    branches:
+    - '**'
+  workflow_dispatch: null
