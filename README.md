@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/digitalocean/godo.svg)](https://travis-ci.org/digitalocean/godo)
 [![GoDoc](https://godoc.org/github.com/digitalocean/godo?status.svg)](https://godoc.org/github.com/digitalocean/godo)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fgodo.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fgodo?ref=badge_shield)
 
 Godo is a Go client library for accessing the DigitalOcean V2 API.
 
@@ -137,3 +138,7 @@ For details on all the functionality in this library, see the [GoDoc](http://god
 ## Contributing
 
 We love pull requests! Please see the [contribution guidelines](CONTRIBUTING.md).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fgodo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fgodo?ref=badge_large)
